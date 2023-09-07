@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    .font-outline {
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: black;
+      }
+    .font-outline-2 {
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: black;
+    }
+    .font-outline-4 {
+        -webkit-text-stroke-width: 2px;
+        -webkit-text-stroke-color: black;
+    }
+
+    .font-outline-white {
+        -webkit-text-stroke-color: white;
+    }
+  }
